@@ -2,7 +2,8 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.5'
+# gem 'rails', '4.2.5' (Original)
+gem 'rails', '4.2.10'
 # Use sqlite3 as the db for Active Record
 
 # Use SCSS for stylesheets
@@ -47,7 +48,6 @@ group :development do
 end
 
 group :production do
-  ruby '2.3.4'
   gem 'pg'
   gem 'rails_12factor'
 end
